@@ -19,16 +19,31 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *jumpButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:jumpButton];
+    
+    jumpButton.frame = CGRectMake(100, 100, 100, 100);
+    jumpButton.backgroundColor = [UIColor greenColor];
+    [jumpButton setTitle:@"detail" forState:UIControlStateNormal];
+    [jumpButton addTarget:self action:@selector(gotoNextVC) forControlEvents:UIControlEventTouchUpInside];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)gotoNextVC
+{
+    
 }
-*/
+
+- (BOOL)shouldAutorotate{
+    return NO;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    return UIInterfaceOrientationPortrait;
+}
 
 @end

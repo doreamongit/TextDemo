@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		433E1E8923C47518004CEBD8 /* UINavigationController+InterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 433E1E8723C47518004CEBD8 /* UINavigationController+InterfaceOrientation.m */; };
 		43FC0AC423AC569C008E3334 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC0AC323AC569C008E3334 /* AppDelegate.m */; };
-		43FC0AC723AC569C008E3334 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC0AC623AC569C008E3334 /* SceneDelegate.m */; };
 		43FC0ACA23AC569C008E3334 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC0AC923AC569C008E3334 /* ViewController.m */; };
 		43FC0ACD23AC569C008E3334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FC0ACB23AC569C008E3334 /* Main.storyboard */; };
 		43FC0ACF23AC569D008E3334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FC0ACE23AC569D008E3334 /* Assets.xcassets */; };
@@ -18,11 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		433E1E8723C47518004CEBD8 /* UINavigationController+InterfaceOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+InterfaceOrientation.m"; sourceTree = "<group>"; };
+		433E1E8823C47518004CEBD8 /* UINavigationController+InterfaceOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+InterfaceOrientation.h"; sourceTree = "<group>"; };
 		43FC0ABF23AC569C008E3334 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FC0AC223AC569C008E3334 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43FC0AC323AC569C008E3334 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		43FC0AC523AC569C008E3334 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		43FC0AC623AC569C008E3334 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		43FC0AC823AC569C008E3334 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		43FC0AC923AC569C008E3334 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		43FC0ACC23AC569C008E3334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,12 +66,12 @@
 			children = (
 				43FC0AC223AC569C008E3334 /* AppDelegate.h */,
 				43FC0AC323AC569C008E3334 /* AppDelegate.m */,
-				43FC0AC523AC569C008E3334 /* SceneDelegate.h */,
-				43FC0AC623AC569C008E3334 /* SceneDelegate.m */,
 				43FC0AC823AC569C008E3334 /* ViewController.h */,
 				43FC0AC923AC569C008E3334 /* ViewController.m */,
 				43FC0ADB23AC5A58008E3334 /* DetailVC.h */,
 				43FC0ADC23AC5A58008E3334 /* DetailVC.m */,
+				433E1E8823C47518004CEBD8 /* UINavigationController+InterfaceOrientation.h */,
+				433E1E8723C47518004CEBD8 /* UINavigationController+InterfaceOrientation.m */,
 				43FC0ACB23AC569C008E3334 /* Main.storyboard */,
 				43FC0ACE23AC569D008E3334 /* Assets.xcassets */,
 				43FC0AD023AC569D008E3334 /* LaunchScreen.storyboard */,
@@ -151,11 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433E1E8923C47518004CEBD8 /* UINavigationController+InterfaceOrientation.m in Sources */,
 				43FC0ACA23AC569C008E3334 /* ViewController.m in Sources */,
 				43FC0ADD23AC5A58008E3334 /* DetailVC.m in Sources */,
 				43FC0AC423AC569C008E3334 /* AppDelegate.m in Sources */,
 				43FC0AD523AC569D008E3334 /* main.m in Sources */,
-				43FC0AC723AC569C008E3334 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
