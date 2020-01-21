@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		433E1E8923C47518004CEBD8 /* UINavigationController+InterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 433E1E8723C47518004CEBD8 /* UINavigationController+InterfaceOrientation.m */; };
+		43F9E6EB23D5A60400DBBB5B /* UIView+HookInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9E6EA23D5A60400DBBB5B /* UIView+HookInit.m */; };
+		43F9E6EE23D68C1E00DBBB5B /* NSObject+Instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9E6ED23D68C1E00DBBB5B /* NSObject+Instance.m */; };
 		43FC0AC423AC569C008E3334 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC0AC323AC569C008E3334 /* AppDelegate.m */; };
 		43FC0ACA23AC569C008E3334 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FC0AC923AC569C008E3334 /* ViewController.m */; };
 		43FC0ACD23AC569C008E3334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FC0ACB23AC569C008E3334 /* Main.storyboard */; };
@@ -20,6 +22,10 @@
 /* Begin PBXFileReference section */
 		433E1E8723C47518004CEBD8 /* UINavigationController+InterfaceOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+InterfaceOrientation.m"; sourceTree = "<group>"; };
 		433E1E8823C47518004CEBD8 /* UINavigationController+InterfaceOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+InterfaceOrientation.h"; sourceTree = "<group>"; };
+		43F9E6E923D5A60400DBBB5B /* UIView+HookInit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HookInit.h"; sourceTree = "<group>"; };
+		43F9E6EA23D5A60400DBBB5B /* UIView+HookInit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HookInit.m"; sourceTree = "<group>"; };
+		43F9E6EC23D68C1E00DBBB5B /* NSObject+Instance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Instance.h"; sourceTree = "<group>"; };
+		43F9E6ED23D68C1E00DBBB5B /* NSObject+Instance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Instance.m"; sourceTree = "<group>"; };
 		43FC0ABF23AC569C008E3334 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FC0AC223AC569C008E3334 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43FC0AC323AC569C008E3334 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +76,10 @@
 				43FC0AC923AC569C008E3334 /* ViewController.m */,
 				43FC0ADB23AC5A58008E3334 /* DetailVC.h */,
 				43FC0ADC23AC5A58008E3334 /* DetailVC.m */,
+				43F9E6EC23D68C1E00DBBB5B /* NSObject+Instance.h */,
+				43F9E6ED23D68C1E00DBBB5B /* NSObject+Instance.m */,
+				43F9E6E923D5A60400DBBB5B /* UIView+HookInit.h */,
+				43F9E6EA23D5A60400DBBB5B /* UIView+HookInit.m */,
 				433E1E8823C47518004CEBD8 /* UINavigationController+InterfaceOrientation.h */,
 				433E1E8723C47518004CEBD8 /* UINavigationController+InterfaceOrientation.m */,
 				43FC0ACB23AC569C008E3334 /* Main.storyboard */,
@@ -151,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F9E6EB23D5A60400DBBB5B /* UIView+HookInit.m in Sources */,
 				433E1E8923C47518004CEBD8 /* UINavigationController+InterfaceOrientation.m in Sources */,
+				43F9E6EE23D68C1E00DBBB5B /* NSObject+Instance.m in Sources */,
 				43FC0ACA23AC569C008E3334 /* ViewController.m in Sources */,
 				43FC0ADD23AC5A58008E3334 /* DetailVC.m in Sources */,
 				43FC0AC423AC569C008E3334 /* AppDelegate.m in Sources */,
